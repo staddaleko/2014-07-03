@@ -36,6 +36,10 @@
             this.autorzyTableAdapter = new WieleDoWielu.KsiazkiDataSetTableAdapters.AutorzyTableAdapter();
             this.ksiazkiTableAdapter1 = new WieleDoWielu.KsiazkiDataSetTableAdapters.KsiazkiTableAdapter();
             this.ksiazkaAutorTableAdapter1 = new WieleDoWielu.KsiazkiDataSetTableAdapters.KsiazkaAutorTableAdapter();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ksiazkiDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.autorzyBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -80,11 +84,49 @@
             // 
             this.ksiazkaAutorTableAdapter1.ClearBeforeFill = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.autorzyBindingSource, "Nazwisko", true));
+            this.textBox1.Location = new System.Drawing.Point(481, 103);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(140, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.autorzyBindingSource, "Imie", true));
+            this.textBox2.Location = new System.Drawing.Point(481, 163);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(140, 20);
+            this.textBox2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(478, 87);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Imię";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(478, 147);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Nazwisko";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(507, 459);
+            this.ClientSize = new System.Drawing.Size(645, 459);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBox1);
             this.Name = "Form1";
@@ -93,6 +135,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ksiazkiDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.autorzyBindingSource)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -105,6 +148,10 @@
         private KsiazkiDataSetTableAdapters.AutorzyTableAdapter autorzyTableAdapter;
         private KsiazkiDataSetTableAdapters.KsiazkiTableAdapter ksiazkiTableAdapter1;
         private KsiazkiDataSetTableAdapters.KsiazkaAutorTableAdapter ksiazkaAutorTableAdapter1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
