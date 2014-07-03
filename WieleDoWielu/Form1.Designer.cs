@@ -34,6 +34,8 @@
             this.ksiazkiDataSet = new WieleDoWielu.KsiazkiDataSet();
             this.autorzyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.autorzyTableAdapter = new WieleDoWielu.KsiazkiDataSetTableAdapters.AutorzyTableAdapter();
+            this.ksiazkiTableAdapter1 = new WieleDoWielu.KsiazkiDataSetTableAdapters.KsiazkiTableAdapter();
+            this.ksiazkaAutorTableAdapter1 = new WieleDoWielu.KsiazkiDataSetTableAdapters.KsiazkaAutorTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.ksiazkiDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.autorzyBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -70,6 +72,14 @@
             // 
             this.autorzyTableAdapter.ClearBeforeFill = true;
             // 
+            // ksiazkiTableAdapter1
+            // 
+            this.ksiazkiTableAdapter1.ClearBeforeFill = true;
+            // 
+            // ksiazkaAutorTableAdapter1
+            // 
+            this.ksiazkaAutorTableAdapter1.ClearBeforeFill = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -93,6 +103,8 @@
         private KsiazkiDataSet ksiazkiDataSet;
         private System.Windows.Forms.BindingSource autorzyBindingSource;
         private KsiazkiDataSetTableAdapters.AutorzyTableAdapter autorzyTableAdapter;
+        private KsiazkiDataSetTableAdapters.KsiazkiTableAdapter ksiazkiTableAdapter1;
+        private KsiazkiDataSetTableAdapters.KsiazkaAutorTableAdapter ksiazkaAutorTableAdapter1;
     }
 }
 
