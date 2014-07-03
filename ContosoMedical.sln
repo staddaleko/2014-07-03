@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAdminClient", "ClinicAdminClient\ClinicAdminClient.csproj", "{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoMedicalUtilities", "ContosoMedicalUtilities\ContosoMedicalUtilities.csproj", "{395F0A56-782C-4DB6-949A-5F774F473331}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ContosoMedicalDatabases", "ContosoMedicalDatabases\ContosoMedicalDatabases.sqlproj", "{B5E453CA-692D-4F79-8652-9B4335EC3C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DD4A843A-F2E5-46DD-AD43-37FBEEAA5ED1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Release|.NET.ActiveCfg = Release|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{395F0A56-782C-4DB6-949A-5F774F473331}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|.NET.ActiveCfg = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B5E453CA-692D-4F79-8652-9B4335EC3C62}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
