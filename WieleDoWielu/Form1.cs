@@ -23,5 +23,12 @@ namespace WieleDoWielu
             this.autorzyTableAdapter.Fill(this.ksiazkiDataSet.Autorzy);
 
         }
+
+        private void comboBox1_Format(object sender, ListControlConvertEventArgs e)
+        {
+            DataRowView rowView = e.ListItem as DataRowView;
+            KsiazkiDataSet.AutorzyRow row = rowView.Row as KsiazkiDataSet.AutorzyRow;
+            e.Value = row.Nazwisko + " " + row.Imie;
+        }
     }
 }
