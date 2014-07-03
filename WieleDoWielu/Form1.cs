@@ -52,5 +52,10 @@ namespace WieleDoWielu
         {
             Close();
         }
+
+        private void checkBox1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Close();
+        }
     }
 }
